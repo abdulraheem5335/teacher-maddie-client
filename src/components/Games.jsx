@@ -16,7 +16,7 @@ const Games = ({ user, onPageChange }) => {
   const tabsRef = useRef();
   const gamesGridRef = useRef();
 
-  // Updated games data with your actual server games
+  // Updated games data with your production server games
   const availableGames = {
     free: [
       {
@@ -26,7 +26,7 @@ const Games = ({ user, onPageChange }) => {
         thumbnail: '/game-thumbnails/word-quest.jpg',
         type: 'free',
         difficulty: 'Easy',
-        gameUrl: 'http://localhost:5000/games/Word-Quest/index.html',
+        gameUrl: 'https://teacher-maddie-backend-production.up.railway.app/games/Word-Quest/index.html',
         category: 'Language'
       },
       {
@@ -36,7 +36,7 @@ const Games = ({ user, onPageChange }) => {
         thumbnail: '/game-thumbnails/math-adventure.jpg',
         type: 'free',
         difficulty: 'Medium',
-        gameUrl: 'http://localhost:5000/games/Math-Adventure/index.html',
+        gameUrl: 'https://teacher-maddie-backend-production.up.railway.app/games/Math-Adventure/index.html',
         category: 'Math'
       },
       {
@@ -46,7 +46,7 @@ const Games = ({ user, onPageChange }) => {
         thumbnail: '/game-thumbnails/color-memory.jpg',
         type: 'free',
         difficulty: 'Easy',
-        gameUrl: 'http://localhost:5000/games/Color-Memory-Challenge/index.html',
+        gameUrl: 'https://teacher-maddie-backend-production.up.railway.app/games/Color-Memory-Challenge/index.html',
         category: 'Memory'
       }
     ],
