@@ -84,7 +84,7 @@ const Hero = () => {
     <section ref={heroRef} className="hero">
       <div className="hero-content">
         <div ref={logoRef} className="hero-logo">
-          <img src="../../public/logo.png" alt="Teacher Maddie" />
+          <img src="/logo.png" alt="Teacher Maddie" />
         </div>
         
         <h1 ref={titleRef} className="hero-title"></h1>
